@@ -1,0 +1,51 @@
+#full-index header{
+    color: orangered;
+}
+#full-index nav {
+    background-color: saddlebrown;
+    color: orange;
+}
+
+.card-img-top {
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    margin: 0 auto;
+}
+
+.center {
+    text-align: center;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 60px;
+    text-decoration: none;
+    border-radius: 50%;
+
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-github {
+    background: #007bb5;
+    color: white;
+}

@@ -7,35 +7,132 @@
     <!--Bootstrap CSS-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
+    <!--Styles CSS-->
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
 </head>
-<body>
-<div id="full">
+<body background="/images/background.jpg">
+<div id="full-index">
     <nav>
         <ul class="nav nav-tabs">
             <li class="nav-item">
-                <a class="nav-link active" href="#">Active</a>
+                <a class="nav-link" href="/">Homepage</a>
             </li>
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Dropdown</a>
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Profiles</a>
                 <div class="dropdown-menu">
-                    <a class="dropdown-item" href="#">Link 1</a>
-                    <a class="dropdown-item" href="#">Link 2</a>
-                    <a class="dropdown-item" href="#">Link 3</a>
+                    <a class="dropdown-item" href="#">Profile 1</a>
+                    <a class="dropdown-item" href="#">Profile 2</a>
+                    <a class="dropdown-item" href="#">Profile 3</a>
                 </div>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link disabled" href="#">Disabled</a>
+                <a class="nav-link" href="#">Bootcamp</a>
             </li>
         </ul>
     </nav>
     <header>
-
+        <div class="container">
+           <div class="row">
+               <div class="col-sm-1"></div>
+               <div class="col-sm-10 text-center">
+                   <h1>This One Time at BitCamp</h1>
+                   <h4>Post your programming thoughts</h4>
+               </div>
+               <div class="col-sm-1"></div>
+           </div>
+        </div>
     </header>
-    <section>
+    <section id="posts">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4"></div>
+                <div class="col-sm-4 text-center">
+                    <h3>Posts</h3>
+                </div>
+                <div class="col-sm-4"></div>
+            </div>
 
+            <div class="row">
+                <div class="col-sm-4 text-center">
+                    <p>Post Name</p>
+                    <a href="https://placeholder.com"><img src="/images/fire.jpg" width="250px" height="250px"/></a>
+                </div>
+                <div class="col-sm-4 text-center">
+                    <p>Post Name</p>
+                    <a href="https://placeholder.com"><img src="/images/fire.jpg" width="250px" height="250px"/></a>
+                </div>
+                <div class="col-sm-4 text-center">
+                    <p>Post Name</p>
+                    <a href="https://placeholder.com"><img src="/images/fire.jpg" width="250px" height="250px"/></a>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-4 text-center">
+                    <p>Post Name</p>
+                    <a href="https://placeholder.com"><img src="/images/fire.jpg" width="250px" height="250px"/></a>
+                </div>
+                <div class="col-sm-4 text-center">
+                    <p>Post Name</p>
+                    <a href="https://placeholder.com"><img src="/images/fire.jpg" width="250px" height="250px"/></a>
+                </div>
+                <div class="col-sm-4 text-center">
+                    <p>Post Name</p>
+                    <a href="https://placeholder.com"><img src="/images/fire.jpg" width="250px" height="250px"/></a>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-4 text-center">
+                    <p>Post Name</p>
+                    <a href="https://placeholder.com"><img src="/images/fire.jpg" width="250px" height="250px"/></a>
+                </div>
+                <div class="col-sm-4 text-center">
+                    <p>Post Name</p>
+                    <a href="https://placeholder.com"><img src="/images/fire.jpg" width="250px" height="250px"/></a>
+                </div>
+                <div class="col-sm-4 text-center">
+                    <p>Post Name</p>
+                    <a href="https://placeholder.com"><img src="/images/fire.jpg" width="250px" height="250px"/></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="profiles">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4"></div>
+                <div class="col-sm-4 text-center">
+                    <h3>Meet the Campers</h3>
+                </div>
+                <div class="col-sm-4"></div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-5 profile">
+                    <div class="card">
+                        <img class="card-img-top" src="https://via.placeholder.com/350" alt="Card image">
+                        <div class="card-body text-center">
+                            <h4 class="card-title">John Doe</h4>
+                            <p class="card-text">See my profile to learn more about me.</p>
+                            <a href="#" class="btn btn-primary">See Profile</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-2"></div>
+                <div class="col-sm-5 profile">
+                    <div class="card">
+                        <img class="card-img-top" src="https://via.placeholder.com/350" alt="Card image">
+                        <div class="card-body text-center">
+                            <h4 class="card-title">John Doe</h4>
+                            <p class="card-text">See my profile to learn more about me.</p>
+                            <a href="#" class="btn btn-primary">See Profile</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
 
