@@ -16,12 +16,13 @@ public class HomeControllerMichael {
     public String profileA(){
         return "profileA";
     }
+
     @RequestMapping("/blogpost_template")
     public String blogposttemplate(){
         return "blogpost_template";
     }
 
-<<<<<<< HEAD
+
     @RequestMapping("/blogpost_html")
     public String blogposthtml(){
         return "blogpost_html";
@@ -61,7 +62,7 @@ public class HomeControllerMichael {
     public String blogpostobject3(){
         return "blogpost_object3";
     }
-=======
+
     @RequestMapping("/Github2")
     public String Github2() { return "Github2"; }
 
@@ -89,5 +90,4 @@ public class HomeControllerMichael {
 
 
 
->>>>>>> f84a001ac40d342ee5a6f668656802302d277967
 }
