@@ -20,4 +20,26 @@ public class HomeController {
     public String blogposttemplate(){
         return "blogpost_template";
     }
+
+    @RequestMapping("/Github2")
+    public String Github2() { return "Github2"; }
+
+    @RequestMapping ("/Github")
+    public String Github() {return "Github";}
+
+    @RequestMapping("/Github3")
+    public String Github3() { return "Github";}
+
+    @RequestMapping ("/CoreJava")
+    public String CoreJava() { return "CoreJava";}
+
+    @RequestMapping ("/CoreJava2")
+    public String CoreJava2() {return "CoreJava2";}
+
+    @RequestMapping ("/CoreJava3")
+    public String CoreJava3() {return "CoreJava3";}
+
+
+
+
 }
