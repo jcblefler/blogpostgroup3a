@@ -21,6 +21,7 @@ public class HomeController {
         return "blogpost_template";
     }
 
+<<<<<<< HEAD
     @RequestMapping("/blogpost_html")
     public String blogposthtml(){
         return "blogpost_html";
@@ -60,4 +61,33 @@ public class HomeController {
     public String blogpostobject3(){
         return "blogpost_object3";
     }
+=======
+    @RequestMapping("/Github2")
+    public String Github2() { return "Github2"; }
+
+    @RequestMapping ("/Github")
+    public String Github() {return "Github";}
+
+    @RequestMapping("/Github3")
+    public String Github3() { return "Github";}
+
+    @RequestMapping ("/CoreJava")
+    public String CoreJava() { return "CoreJava";}
+
+    @RequestMapping ("/CoreJava2")
+    public String CoreJava2() {return "CoreJava2";}
+
+    @RequestMapping ("/CoreJava3")
+    public String CoreJava3() {return "CoreJava3";}
+
+    @RequestMapping ("/ProgramDesign")
+    public String ProgramDesign2() {return "ProgramDesign";}
+
+    @RequestMapping ("/ProgramDesign2")
+    pulic String ProgramDesign2() {return "ProgramDesign2";}
+
+
+
+
+>>>>>>> f84a001ac40d342ee5a6f668656802302d277967
 }
