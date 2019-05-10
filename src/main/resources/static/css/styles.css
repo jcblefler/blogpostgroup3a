@@ -1,10 +1,13 @@
 #full-index header{
     color: orangered;
 }
-#full-index nav {
+nav {
     background-color: saddlebrown;
     color: orange;
 }
+
+
+/*Index Page*/
 
 .card-img-top {
     width: 350px;
@@ -17,6 +20,35 @@
     text-align: center;
 }
 
+#posts {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#posts h3 {
+    color: white;
+    font-size:  45px;
+}
+#posts p {
+    color: white;
+    font-size:  20px;
+}
+
+#profiles {
+
+}
+#profiles h3{
+    color: white;
+    font-size:  45px;
+}
+
+
+
+
+
+
+
+
+/*Profile Page*/
 .fa {
     padding: 20px;
     font-size: 30px;
@@ -47,5 +79,25 @@
 
 .fa-github {
     background: #007bb5;
+    color: white;
+}
+#bio li {
+    list-style-type: none;
+
+}
+
+#bio {
+    width: 50%;
+    margin: 0 auto;
+}
+
+
+
+
+
+/*Post Page*/
+#postText {
+    width: 40%;
+    margin: 0 auto;
     color: white;
 }
