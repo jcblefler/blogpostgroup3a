@@ -4,7 +4,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
-public class HomeController {
+public class HomeControllerMichael {
 
 
     @RequestMapping("/")
@@ -43,7 +43,7 @@ public class HomeController {
     public String ProgramDesign2() {return "ProgramDesign";}
 
     @RequestMapping ("/ProgramDesign2")
-    pulic String ProgramDesign2() {return "ProgramDesign2";}
+    public String HomeControllerMichael() {return "ProgramDesign2";}
 
 
 
