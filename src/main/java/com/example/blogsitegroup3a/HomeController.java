@@ -39,6 +39,12 @@ public class HomeController {
     @RequestMapping ("/CoreJava3")
     public String CoreJava3() {return "CoreJava3";}
 
+    @RequestMapping ("/ProgramDesign")
+    public String ProgramDesign2() {return "ProgramDesign";}
+
+    @RequestMapping ("/ProgramDesign2")
+    pulic String ProgramDesign2() {return "ProgramDesign2";}
+
 
 
 
