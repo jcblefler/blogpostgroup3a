@@ -7,39 +7,42 @@
     <!--Bootstrap CSS-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
+    <!--Styles CSS-->
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
 </head>
-<body>
+<body background="/images/background.jpg">
 <div id="full">
     <nav>
         <ul class="nav nav-tabs">
             <li class="nav-item">
-                <a class="nav-link" href="#">Homepage</a>
+                <a class="nav-link" href="/">Homepage</a>
             </li>
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Profiles</a>
                 <div class="dropdown-menu">
-                    <a class="dropdown-item" href="#">Profile 1</a>
-                    <a class="dropdown-item" href="#">Profile 2</a>
-                    <a class="dropdown-item" href="#">Profile 3</a>
+                    <a class="dropdown-item" href="/profile_Jane">Jane Smith</a>
+                    <a class="dropdown-item" href="/profile_Mary">Mary Jones</a>
+                    <a class="dropdown-item" href="/profile_Phil">Phil Heather</a>
+                    <a class="dropdown-item" href="/profile_Fred">Fredrico Corleone</a>
                 </div>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Bootcamp</a>
+                <a class="nav-link" href="/bootcamp">Bootcamp</a>
             </li>
         </ul>
     </nav>
-    <header>
+    <header id="postHeader">
         <div class="container">
             <div class=".col-sm-2"></div>
             <div class=".col-sm-8 text-center">
                 <h1>Core Java Entry #1 </h1>
                 <h2>Learning Core Java</h2>
-                <h4><a href="/profileA">Fredrico Corleone</a></h4>
+                <h4><a href="/profile_FredA">Fredrico Corleone</a></h4>
             </div>
             <div class=".col-sm-2"></div>
         </div>
     </header>
-    <section>
+    <section id="postText">
         <p>
             Java was developed in the early 1990's at Sun Microsystems by James Gosling. Sun has since been acquired by Oracle Corporation so they now maintain Java.Core Java refers to Java SE. It includes the Java Language, the Java Virtual Machine (JVM) and Java Development Kit (JDK). The JDK contains the compiler, some tools and a library.
         </p>

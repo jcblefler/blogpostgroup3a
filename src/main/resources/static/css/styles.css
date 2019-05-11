@@ -96,8 +96,14 @@ nav {
 
 
 /*Post Page*/
+#postHeader {
+    color: white;
+}
+
 #postText {
     width: 40%;
     margin: 0 auto;
     color: white;
+    paddiong-top: 50px;
 }
+

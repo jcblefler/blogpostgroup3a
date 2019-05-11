@@ -42,6 +42,21 @@ public class HomeControllerJacob {
         return "profile_Jane";
     }
 
+    @RequestMapping("/profile_Phil")
+    public String profilePhil(){
+        return "profile_Phil";
+    }
+
+    @RequestMapping("/profile_Fred")
+    public String profileFred(){
+        return "profile_Fred";
+    }
+
+    @RequestMapping("/bootcamp")
+    public String bootcamp(){
+        return "bootcamp";
+    }
+
     @RequestMapping("/profile_Mary")
     public String profileMary(){
         return "profile_Mary";
