@@ -5,6 +5,9 @@ nav {
     background-color: saddlebrown;
     color: orange;
 }
+nav a:link {
+    color: orange;
+}
 
 
 /*Index Page*/
