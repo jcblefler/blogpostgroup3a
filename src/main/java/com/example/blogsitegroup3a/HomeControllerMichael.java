@@ -28,10 +28,10 @@ public class HomeControllerMichael {
     public String CoreJava3() {return "CoreJava3";}
 
     @RequestMapping ("/ProgramDesign")
-    public String ProgramDesign2() {return "ProgramDesign";}
+    public String ProgramDesign() {return "ProgramDesign";}
 
     @RequestMapping ("/ProgramDesign2")
-    public String HomeControllerMichael() {return "ProgramDesign2";}
+    public String ProgramDesign2() {return "ProgramDesign2";}
 
 
 
