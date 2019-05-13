@@ -16,7 +16,7 @@ public class HomeControllerMichael {
     public String Github() {return "Github";}
 
     @RequestMapping("/Github3")
-    public String Github3() { return "Github";}
+    public String Github3() { return "Github3";}
 
     @RequestMapping ("/CoreJava")
     public String CoreJava() { return "CoreJava";}
